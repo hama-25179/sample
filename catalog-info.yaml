@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: hama-sample
+  annotations:
+    github.com/project-slug: hama-25179/sample
+    # TechDocsを有効にする場合は以下を有効にする
+    # dir:の内容は catalog.info.yamlから見た mkdocs.yamlのフォルダ
+    backstage.io/techdocs-ref: dir:.
+  tags:
+  - taga
+  - tagb
+  links:
+  - url: https://github.com/hama-25179/sample
+    title: project repository
+    icon: github
+spec:
+  type: service
+  owner: guests
+  lifecycle: experimental
+
