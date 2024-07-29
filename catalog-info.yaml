@@ -17,5 +17,6 @@ metadata:
 spec:
   type: service
   owner: guests
+  system: examples
   lifecycle: experimental
 
