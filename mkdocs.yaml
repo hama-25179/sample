@@ -1,0 +1,15 @@
+site_name: Hama-sample Application
+
+nav:
+  - 概要: index.md
+  - "機能詳細":
+    - "ユーザー認証": authentication/index.md
+    - "アクセス承認": authorization/index.md
+  - "モニタリング":
+    - "kubernetes": kubernetes/index.md
+    - "Argo": argo/index.md
+
+docs_dir: 'docs'
+
+plugins:
+  - techdocs-core
