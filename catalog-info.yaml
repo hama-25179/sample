@@ -14,7 +14,7 @@ metadata:
     title: project repository
     icon: github
 spec:
-  type: servicex
+  type: service
   owner: guests
   system: examples
   lifecycle: experimental
