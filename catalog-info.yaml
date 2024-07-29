@@ -4,9 +4,8 @@ metadata:
   name: hama-sample
   annotations:
     github.com/project-slug: hama-25179/sample
-    # TechDocsを有効にする場合は以下を有効にする
-    # dir:の内容は catalog.info.yamlから見た mkdocs.yamlのフォルダ
     backstage.io/techdocs-ref: dir:.
+  description: "サンプルアプリケーション"
   tags:
   - taga
   - tagb
